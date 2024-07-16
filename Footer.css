@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(240, 234, 234); /* Light purple background */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif; /* Professional font family */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #ff6f61; /* Accent color for links */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.footer a:hover {
+  color: #de4383; /* Slightly different color on hover */
+}

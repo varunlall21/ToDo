@@ -1,0 +1,54 @@
+/* Navbar styling */
+.navbar {
+  background-color: #fff; /* White background */
+  padding: 15px 0; /* Vertical padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.87); /* Vibrant red color */
+  font-size: 25px; /* Font size */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-brand:hover {
+  color: #ef3737; /* Lighter red on hover */
+}
+
+/* Navbar items styling */
+.navbar-nav {
+  display: flex; /* Flexbox layout for items */
+  justify-content: flex-end; /* Right align items */
+  gap: 20px; /* Gap between items */
+}
+
+.nav-item {
+  position: relative; /* Relative positioning for pseudo elements */
+}
+
+.nav-item a {
+  color: #333; /* Dark text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Padding for button appearance */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.nav-item a:hover {
+  background-color: rgba(240, 0, 0, 0.87); /* Vibrant red background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+/* Left side styling */
+.nav-left::before {
+  content: ""; /* Empty content for pseudo element */
+  position: absolute; /* Absolute positioning */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: #000; /* Black background */
+  z-index: -1; /* Behind other elements */
+}

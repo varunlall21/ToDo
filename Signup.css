@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@700&display=swap');
+
+/* Container for the entire signup section */
+.signup {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark text color for contrast */
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; /* Professional font family */
+}
+
+/* Input field styling */
+.signup input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.signup button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(240, 0, 0, 0.87); /* Reddish background color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.signup button:hover {
+  background-color: #ff6f61; /* Lighter shade on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .signup {
+    padding: 10px;
+    height: auto;
+  }
+}
